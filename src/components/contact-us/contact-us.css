@@ -1,0 +1,108 @@
+.contact-us-title{
+   
+    text-align: center;
+    margin-bottom: 5rem;
+    justify-content: center;
+}
+.contact-us-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 70px;
+    padding: 50px;
+    position: relative;
+    background: linear-gradient(80deg, #01001d 50%, #030058 50%);
+
+}
+
+.contact-us-container:before, .contact-us-container:after
+{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    left: 10px;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(-3deg);
+    -moz-transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+}
+
+.contact-us-container:after
+{
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+
+.left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 20px;
+    color: white;
+
+   
+}
+.address-list div{
+    padding: 8px;
+}
+
+.right-col{
+    display: flex;
+flex-direction: column;
+text-align: center;
+}
+
+.contact-us-form .field{
+padding: 10px;
+display: flex;
+flex-direction: column;
+}
+
+.contact-us-form .name-email{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.field input{
+    padding: 8px 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid lightgray;
+}
+
+.field textarea{
+    padding: 20px 7px;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid lightgray;
+}
+
+.btn{
+    padding: 13px 80px;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    border-radius: 30px;
+    vertical-align: middle;
+}
